@@ -12,20 +12,20 @@
       </div>
       <div class="ae-grid__item item-lg-4 au-xs-ta-center">
 
-        <a href="https://twitter.com/agrodriguezs/" class="rk-social-btn"  target="_blank">
+        <a [href]="servicio.info.twitter"  class="rk-social-btn"  target="_blank">
           <svg>
             <use xlink:href="assets/img/symbols.svg#icon-twitter" ></use>
           </svg>
         </a>
 
-        <a href="https://www.linkelin.com/in/agrodriguezs/" class="rk-social-btn" target="_blank">
+        <a [href]="servicio.info.linkedin"  class="rk-social-btn" target="_blank">
           <svg>
             <use xlink:href="assets/img/symbols.svg#icon-linkedin"></use>
           </svg>
         </a>
 
 
-        <a href="https://www.github.com/agrodriguezs/" class="rk-social-btn" target="_blank">
+        <a [href]="servicio.info.github" class="rk-social-btn" target="_blank">
           <svg>
             <use xlink:href="assets/img/symbols.svg#icon-github"></use>
           </svg>
@@ -34,7 +34,12 @@
       </div>
 
       <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-right">
-
+        <p class="rk-footer__text rk-footer__contact">
+          <span class="ae-u-bold"> Email: </span>
+          <span class="ae-u-bolder">
+            <a href="mailTo:{{servicio.info.email}}" class="rk-dark-color"> {{servicio.info.email}}</a>  
+          </span>
+        </p>
          <p class="rk-footer__text rk-footer__by">
           Theme by <a href="http://pixeden.com" class="ae-u-bolder">Pixeden.</a>
         </p>
