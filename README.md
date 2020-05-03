@@ -1,27 +1,23 @@
-# Portafolio
+# Actividad del curso de Angular: 
+## Convierte cualquier template HTML en una WebAPP
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.4.
+Este curso se enfoca en convertir una plantilla HTML a una aplicación de Angular, usando Firebase como backend, desplegando el sitio web en GitHub Pages y utilizando Git como repositorio. Firebase y otras herramientas. El objetivo final es crear y desplegar la página web en un sitio web real, adquiriendo el conocimiento necesario para poder trabajar con confianza temas que no están hecho nativamente para el Framework de Angular.
 
-## Development server
+## Temas puntuales a tratar:
+Componentes en Angular
+Rutas utilizando módulos
+Generar aplicación de producción
+Firebase REST API
+Git
+GitHub
+Servicios de Angular
+Convertir un template HTML en una aplicación de Angular
+Y mucho más
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+##  que estoy aprendiendo ?
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Crear una página web administrada por Angular y Firebase
+Tener el conocimiento necesario para convertir cualquier template HTML en una aplicación de Angular
+Desplegar una aplicación a un sitio web
+Usar GitHub Pages para desplegar sitios y aplicaciones web
+Crear un portafolio de proyectos o productos
