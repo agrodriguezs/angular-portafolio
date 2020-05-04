@@ -25,7 +25,7 @@
     animation-name: fadeIn;
   }
   
-.animated {
+  .animated {
     -webkit-animation-duration: 0.7s;
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
