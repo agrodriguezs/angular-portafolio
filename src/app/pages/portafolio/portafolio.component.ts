@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { InfoProductoService } from '../../services/info-productos.service';
 
 @Component({
   selector: 'app-portafolio',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PortafolioComponent implements OnInit {
 
-  constructor() { }
+  constructor(public productos: InfoProductoService) { }
 
   ngOnInit(): void {
   }
